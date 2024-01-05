@@ -4,7 +4,8 @@ Fixed a bug in writing stats.EPOCH.lock file (based on 1.8.2 official version ht
 - added dual cpu+gpu mining on hiveos in one flighsheet (as Hive OS doesn't support 2 custom miners)
 - added total found and rejected solution on HiveOs web UI
 - fixed hashrate reporting
-- fixed gpu info
+- fixed gpu data (hash, fan,temp,bus)
+- fixed cpu data (hash, temp,bus)
 - added support of gpu mining "only" also => *just don't set "amountOfThreads" param in the Filghtsheet* 
 - stability improvement
 
@@ -21,7 +22,7 @@ Your support is greatly appreciated!
 
 [![Discord](https://github.com/EloWord/hiveos/assets/155255722/fbc15830-d050-495d-81e7-4947afeebae6?s=200)](https://discord.gg/uPP8R6ku)
 
-## :warning: Mandatory Installation Instructions (updated)
+## :warning: Mandatory Installation Instructions (update 05/01/2024)
 
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
