@@ -4,8 +4,8 @@ Fixed a bug in writing stats.EPOCH.lock file (based on 1.8.2 official version ht
 - added dual cpu+gpu mining on hiveos in one flighsheet (as Hive OS doesn't support 2 custom miners)
 - added total found and rejected solution on HiveOs web UI
 - fixed hashrate reporting
-- fixed gpu data (hash, fan,temp,bus)
-- fixed cpu data (hash, temp,bus)
+- fixed gpu data (hash,fan,temp,bus)
+- fixed cpu data (hash,temp,bus)
 - added support of gpu mining "only" also => *just don't set "amountOfThreads" param in the Filghtsheet* 
 - stability improvement
 
