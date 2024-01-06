@@ -48,9 +48,10 @@ Just drop your NVTOOL command in the `Extra config argument` box it's magic
 
 Use backspace between nvtool command and "accessToken" like:
 
-```nvtool --setcoreoffset 250 --setclocks 1470 --setmem 5001 && nvtool -i 0 --setcoreoffset 250 --setclocks 1700 --setmem 5001
-"accessToken": "YOUROWNTOKEN"```
-
+```
+nvtool --setcoreoffset 250 --setclocks 1470 --setmem 5001 && nvtool -i 0 --setcoreoffset 250 --setclocks 1700 --setmem 5001
+"accessToken": "YOUROWNTOKEN"
+```
 
 ### CPU + GPU Dual Flightsheet
 
