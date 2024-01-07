@@ -1,5 +1,6 @@
 Latest release: [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
+
 - Improved HiveOs version compatibility
 - Improved it/s reporting
 - Fixed bug on solution reporting when GPU only mining
@@ -42,6 +43,7 @@ Thank you for being part of this journey!
 - Only CPU mining use https://github.com/EloWord/hiveos/releases/download/v-dual1.8.2/qubic-cpuhivecustom-eloword-v1.8.2.tar.gz
 
 
+
 ## :wrench: Hive OS flightsheet 
 
 Just drop your NVTOOL command in the `Extra config argument` box it's magic
@@ -49,7 +51,7 @@ Just drop your NVTOOL command in the `Extra config argument` box it's magic
 *Use backspace between nvtool command and "accessToken"*
 
 
-### CPU + GPU Dual Flightsheet
+### *** CPU + GPU Dual Flightsheet ***
 
 Extra config arguments exemple:
 ```
@@ -61,7 +63,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 <img width="663" alt="Capture d’écran 2024-01-07 à 04 03 34" src="https://github.com/EloWord/hiveos/assets/155255722/ccc0e7c3-5ee2-4c58-b109-bd782534827e">
 
 
-### GPU Only Flightsheet
+### *** GPU Only Flightsheet ***
 
 Extra config arguments exemple:
 ```
@@ -72,7 +74,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 <img width="660" alt="Capture d’écran 2024-01-07 à 04 07 27" src="https://github.com/EloWord/hiveos/assets/155255722/9af864a8-fe8a-4318-98e7-b23a941b1707">
 
 
-### CPU ONLY Flightsheet
+### *** CPU ONLY Flightsheet ***
 
 Extra config arguments exemple:
 ```
@@ -81,3 +83,4 @@ Extra config arguments exemple:
 ```
 
 ![Capture d’écran 2024-01-05 à 05 23 32](https://github.com/EloWord/hiveos/assets/155255722/cb055453-17aa-47a8-8b77-e8db64c012c6)
+
