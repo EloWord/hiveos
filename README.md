@@ -48,9 +48,6 @@ Thank you for being part of this journey!
 
 Just drop your NVTOOL command in the `Extra config argument` box it's magic
 
-*Use backspace between nvtool command and "accessToken"*
-
-
 ### *** CPU + GPU Dual Flightsheet ***
 
 Extra config arguments exemple:
