@@ -1,3 +1,4 @@
+Latest release: [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
 - Improved HiveOs version compatibility
 - Improved it/s reporting
