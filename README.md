@@ -54,21 +54,18 @@ Extra config arguments exemple:
 ```
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "amountOfThreads":14
-"accessToken": "YOUROWNTOKEN"
+"accessToken":"YOUROWNTOKEN"
 ```
-
-<img width="663" alt="Capture d’écran 2024-01-07 à 04 03 34" src="https://github.com/EloWord/hiveos/assets/155255722/ccc0e7c3-5ee2-4c58-b109-bd782534827e">
-
+<img width="662" alt="Capture d’écran 2024-01-07 à 04 59 17" src="https://github.com/EloWord/hiveos/assets/155255722/7a2010aa-3bd6-4ead-b4f5-89cd5edd5887">
 
 ### *** GPU Only Flightsheet ***
 
 Extra config arguments exemple:
 ```
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
-"accessToken": "YOUROWNTOKEN"
+"accessToken":"YOUROWNTOKEN"
 ```
-
-<img width="660" alt="Capture d’écran 2024-01-07 à 04 07 27" src="https://github.com/EloWord/hiveos/assets/155255722/9af864a8-fe8a-4318-98e7-b23a941b1707">
+<img width="667" alt="Capture d’écran 2024-01-07 à 04 52 19" src="https://github.com/EloWord/hiveos/assets/155255722/f392c728-16a1-498d-b298-232e71de50ce">
 
 
 ### *** CPU ONLY Flightsheet ***
@@ -76,8 +73,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 Extra config arguments exemple:
 ```
 "amountOfThreads":14
-"accessToken": "YOUROWNTOKEN"
+"accessToken":"YOUROWNTOKEN"
 ```
-
-![Capture d’écran 2024-01-05 à 05 23 32](https://github.com/EloWord/hiveos/assets/155255722/cb055453-17aa-47a8-8b77-e8db64c012c6)
+<img width="665" alt="Capture d’écran 2024-01-07 à 04 56 32" src="https://github.com/EloWord/hiveos/assets/155255722/cd2f2f4b-2b80-43ce-be45-963c15b7e1f0">
 
