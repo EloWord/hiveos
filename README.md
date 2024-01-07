@@ -19,7 +19,7 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 [![Join our community on Discord](https://github.com/EloWord/hiveos/assets/155255722/fbc15830-d050-495d-81e7-4947afeebae6?s=200)](https://discord.gg/uPP8R6ku)
 
-Your support is greatly appreciated. Thank you for being part of this journey!
+Thank you for being part of this journey!
 
 
 ## :warning: Mandatory Installation Instructions (updated 05/01/2024)
