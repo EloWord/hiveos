@@ -1,4 +1,4 @@
-Latest Release : [Qubic 1.8.2 Dual Hiveos Custom GPU+CPU](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
+Latest Release : [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
 - Improved HiveOs version compatibility
 - Improved it/s reporting
