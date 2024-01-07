@@ -1,4 +1,3 @@
-Latest Release : [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
 - Improved HiveOs version compatibility
 - Improved it/s reporting
@@ -58,10 +57,10 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken": "YOUROWNTOKEN"
 ```
 
-![Capture d’écran 2024-01-05 à 04 46 51](https://github.com/EloWord/hiveos/assets/155255722/530d5079-a297-4d3e-b9a1-4770b9611fb0)
+<img width="663" alt="Capture d’écran 2024-01-07 à 04 03 34" src="https://github.com/EloWord/hiveos/assets/155255722/ccc0e7c3-5ee2-4c58-b109-bd782534827e">
+
 
 ### GPU Only Flightsheet
-
 
 Extra config arguments exemple:
 ```
@@ -69,7 +68,8 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken": "YOUROWNTOKEN"
 ```
 
-![Capture d’écran 2024-01-05 à 05 25 08](https://github.com/EloWord/hiveos/assets/155255722/3195a06d-b0f8-44ce-a446-232bfb3676ba)
+<img width="660" alt="Capture d’écran 2024-01-07 à 04 07 27" src="https://github.com/EloWord/hiveos/assets/155255722/9af864a8-fe8a-4318-98e7-b23a941b1707">
+
 
 ### CPU ONLY Flightsheet
 
@@ -80,4 +80,3 @@ Extra config arguments exemple:
 ```
 
 ![Capture d’écran 2024-01-05 à 05 23 32](https://github.com/EloWord/hiveos/assets/155255722/cb055453-17aa-47a8-8b77-e8db64c012c6)
-
