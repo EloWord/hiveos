@@ -1,6 +1,7 @@
 Latest release: [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
 
+- Improved hashrate on GPU +50% hashrate (pool trainer update 07/01/2024)
 - Improved HiveOs version compatibility
 - Improved it/s reporting
 - Fixed bug on solution reporting when GPU only mining
