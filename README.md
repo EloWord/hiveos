@@ -42,12 +42,14 @@ Thank you for being part of this journey!
 `nvidia-driver-update 525.125.06`
 - RAM >= 16Go improve CPU it/s
 
+*Only NVIDIA GPU compatible*
+
 ## Settings:
 
 - it's a all-in-one miner (CPU+GPU / GPU only / CPU Only) use flightsheet exemples down there
 https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-eloword-v1.8.3.tar.gz
 
-- Recommended overclocks 
+- Recommended GPU overclocks :
 **Medium**
 3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```
 4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```
