@@ -1,14 +1,22 @@
-Latest release: [https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1](https://github.com/EloWord/hiveos/releases/tag/1.8.2dualfix1)
 
-- Improved hashrate on GPU +/-50% on 4000s, +/-10% on 3000s (pool trainer update 07/01/2024)
-- Improved HiveOs version compatibility
-- Improved it/s reporting
-- Fixed bug on solution reporting when GPU only mining
-- Fixed bug on uptime reporting
+<img width="791" alt="Capture d’écran 2024-01-09 à 13 21 14" src="https://github.com/EloWord/hiveos/assets/155255722/93835d77-761f-4fab-964e-29dee67f3065">
+
+
+### Version 1.8.3
+- Fixed a bug in calculating local found solutions. (e.g. wrong "SOL: 12/300" display)
+- Fiexd a reporting bug
+- Added experimental display of epoch to console output
+
+Hive OS
+- Added new option `"cpuOnly":"yes"` to mine only with your cpu
+- Improved it/s reporting in Hive OS Web ui
+- Fixed bug on solution reporting in CPU only mining
+- Improved stability
+
+"Experimental Feature: miner restart and adopt the new Trainer when it receives an update."
 
 ****** stay tuned for next release version *******
 
-![Capture d’écran 2024-01-05 à 05 17 31](https://github.com/EloWord/hiveos/assets/155255722/3c84014e-325e-4229-a8b8-9d863620b7b4)
 
 ## :star2: Support My Work and Contribute to its Growth :star2:
 
@@ -16,7 +24,7 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `HJDQLJOMSLGVWAVBWUTRCYPFICUAWTLUBKXLQXOJLBIKTGLRAGQHPDODPQNB`
 
-*Support received since this version: 0 Qubic - Thank you for your future support!*
+*Support received since this version: 3,000,000 Qubic - Thank you for your future support!*
 
 [![Join our community on Discord](https://github.com/EloWord/hiveos/assets/155255722/fbc15830-d050-495d-81e7-4947afeebae6?s=200)](https://discord.gg/uPP8R6ku)
 
@@ -37,12 +45,8 @@ Thank you for being part of this journey!
 
 ## Settings:
 
-- CPU+GPU mining use https://github.com/EloWord/hiveos/releases/download/1.8.2dualfix1/qubic-hivecustom-eloword-v1.8.2dualfix1.tar.gz
-- Only GPU mining use https://github.com/EloWord/hiveos/releases/download/1.8.2dualfix1/qubic-hivecustom-eloword-v1.8.2dualfix1.tar.gz
-
-- Only CPU mining use https://github.com/EloWord/hiveos/releases/download/v-dual1.8.2/qubic-cpuhivecustom-eloword-v1.8.2.tar.gz
-
-
+- it's a all-in-one miner (CPU+GPU / GPU only / CPU Only) use flightsheet exemples down there
+https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-eloword-v1.8.3.tar.gz
 
 ## :wrench: Hive OS flightsheet 
 
@@ -56,7 +60,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "amountOfThreads":14
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="662" alt="Capture d’écran 2024-01-07 à 04 59 17" src="https://github.com/EloWord/hiveos/assets/155255722/7a2010aa-3bd6-4ead-b4f5-89cd5edd5887">
+<img width="666" alt="Capture d’écran 2024-01-09 à 13 27 23" src="https://github.com/EloWord/hiveos/assets/155255722/b8e6482a-6ac0-43b9-ba1a-ab4cc1d5d0d4">
 
 ### *** GPU Only Flightsheet ***
 
@@ -65,15 +69,14 @@ Extra config arguments exemple:
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="667" alt="Capture d’écran 2024-01-07 à 04 52 19" src="https://github.com/EloWord/hiveos/assets/155255722/f392c728-16a1-498d-b298-232e71de50ce">
-
+<img width="672" alt="Capture d’écran 2024-01-09 à 13 28 42" src="https://github.com/EloWord/hiveos/assets/155255722/b0d1ef43-28b1-4982-abb1-5fe49cd0eaf3">
 
 ### *** CPU ONLY Flightsheet ***
 
 Extra config arguments exemple:
 ```
+"cpuOnly":"yes"
 "amountOfThreads":14
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="665" alt="Capture d’écran 2024-01-07 à 04 56 32" src="https://github.com/EloWord/hiveos/assets/155255722/cd2f2f4b-2b80-43ce-be45-963c15b7e1f0">
-
+<img width="670" alt="Capture d’écran 2024-01-09 à 13 29 27" src="https://github.com/EloWord/hiveos/assets/155255722/381d86a5-761e-4285-b814-4acb8e473c6a">
