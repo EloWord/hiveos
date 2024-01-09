@@ -1,6 +1,5 @@
 
-<img width="791" alt="Capture d’écran 2024-01-09 à 13 21 14" src="https://github.com/EloWord/hiveos/assets/155255722/93835d77-761f-4fab-964e-29dee67f3065">
-
+<img width="788" alt="Capture d’écran 2024-01-09 à 14 49 06" src="https://github.com/EloWord/hiveos/assets/155255722/befd116c-1886-488c-90b3-fc9d8e87df8d">
 
 ### Version 1.8.3
 - Fixed a bug in calculating local found solutions. (e.g. wrong "SOL: 12/300" display)
