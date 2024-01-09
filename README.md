@@ -77,7 +77,8 @@ Extra config arguments exemple:
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="672" alt="Capture d’écran 2024-01-09 à 13 28 42" src="https://github.com/EloWord/hiveos/assets/155255722/b0d1ef43-28b1-4982-abb1-5fe49cd0eaf3">
+<img width="669" alt="Capture d’écran 2024-01-09 à 14 07 29" src="https://github.com/EloWord/hiveos/assets/155255722/2c9f3870-a120-4de3-992b-e1fc22f8a63d">
+
 
 ### *** CPU ONLY Flightsheet ***
 
