@@ -48,7 +48,7 @@ Thank you for being part of this journey!
 - it's a all-in-one miner (CPU+GPU / GPU only / CPU Only) use flightsheet exemples down there
 https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-eloword-v1.8.3.tar.gz
 
-- Recommended overclock 
+- Recommended overclocks 
 **Medium**
 3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```
 4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```
@@ -65,10 +65,10 @@ Just drop your NVTOOL command in the `Extra config argument` box it's magic
 Extra config arguments exemple:
 ```
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
-"amountOfThreads":14
+"amountOfThreads":24
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="666" alt="Capture d’écran 2024-01-09 à 13 27 23" src="https://github.com/EloWord/hiveos/assets/155255722/b8e6482a-6ac0-43b9-ba1a-ab4cc1d5d0d4">
+<img width="662" alt="Capture d’écran 2024-01-09 à 14 43 55" src="https://github.com/EloWord/hiveos/assets/155255722/3785f014-affa-4716-aacf-09441b671241">
 
 ### *** GPU Only Flightsheet ***
 
@@ -77,8 +77,7 @@ Extra config arguments exemple:
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="669" alt="Capture d’écran 2024-01-09 à 14 07 29" src="https://github.com/EloWord/hiveos/assets/155255722/2c9f3870-a120-4de3-992b-e1fc22f8a63d">
-
+<img width="666" alt="Capture d’écran 2024-01-09 à 14 34 36" src="https://github.com/EloWord/hiveos/assets/155255722/d6473e3b-64be-4251-a5ba-98492e5e7447">
 
 ### *** CPU ONLY Flightsheet ***
 
@@ -88,4 +87,4 @@ Extra config arguments exemple:
 "amountOfThreads":14
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="670" alt="Capture d’écran 2024-01-09 à 13 29 27" src="https://github.com/EloWord/hiveos/assets/155255722/381d86a5-761e-4285-b814-4acb8e473c6a">
+<img width="664" alt="Capture d’écran 2024-01-09 à 14 42 06" src="https://github.com/EloWord/hiveos/assets/155255722/a755e6e9-677f-48e4-9e3e-1ddf7a2dcc01">
