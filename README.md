@@ -48,6 +48,14 @@ Thank you for being part of this journey!
 - it's a all-in-one miner (CPU+GPU / GPU only / CPU Only) use flightsheet exemples down there
 https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-eloword-v1.8.3.tar.gz
 
+- Recommended overclock 
+**Medium**
+3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```
+4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```
+**High**
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```
+
 ## :wrench: Hive OS flightsheet 
 
 Just drop your NVTOOL command in the `Extra config argument` box it's magic
