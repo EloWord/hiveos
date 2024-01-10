@@ -1,24 +1,24 @@
 <table>
   <tr>
     <td>
-      <img width="788" alt="Capture d’écran 2024-01-09 à 14 49 06" src="https://github.com/EloWord/hiveos/assets/155255722/befd116c-1886-488c-90b3-fc9d8e87df8d">
+      <img width="850" alt="Capture d’écran 2024-01-09 à 14 49 06" src="https://github.com/EloWord/hiveos/assets/155255722/befd116c-1886-488c-90b3-fc9d8e87df8d">
     </td>
     <td>
       <table>
         <tr>
-          <td><img height="40" width="160" alt="iconewebsite" src="https://github.com/EloWord/hiveos/assets/155255722/63d81a26-9079-49c8-9d3b-12ec100aafa1"></td>
+          <td><img height="40" width="150" alt="iconewebsite" src="https://github.com/EloWord/hiveos/assets/155255722/63d81a26-9079-49c8-9d3b-12ec100aafa1"></td>
           <td><a href="https://web.qubic.li/">Qubic Website</a></td>
         </tr>
         <tr>
-          <td><img height="40" width="160" alt="iconewallet" src="https://github.com/EloWord/hiveos/assets/155255722/df539472-1edb-4fc3-aebd-3271ff3cd692"></td>
+          <td><img height="40" width="150" alt="iconewallet" src="https://github.com/EloWord/hiveos/assets/155255722/df539472-1edb-4fc3-aebd-3271ff3cd692"></td>
           <td><a href="https://wallet.qubic.li/">Web Wallet</a></td>
         </tr>
         <tr>
-          <td><img height="40" width="160" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"></td>
+          <td><img height="40" width="150" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"></td>
           <td><a href="https://github.com/Qubic-Hub/qubic-wallet/releases/">Software Wallet</a></td>
         </tr>
         <tr>
-          <td><img height="40" width="160" alt="iconePool" src="https://github.com/EloWord/hiveos/assets/155255722/25b2b59c-bb7d-4db6-97d4-9cde5c45f7ad"></td>
+          <td><img height="40" width="150" alt="iconePool" src="https://github.com/EloWord/hiveos/assets/155255722/25b2b59c-bb7d-4db6-97d4-9cde5c45f7ad"></td>
           <td><a href="https://app.qubic.li/public/">Mining Pool</a></td>
         </tr>
       </table>
@@ -93,7 +93,7 @@ https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-elo
 4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```
 <br>
 
-## :wrench: Hive OS flightsheet 
+## ✈️ Hive OS flightsheet 
 
 Just drop your NVTOOL command in the `Extra config argument` box it's magic
 
@@ -125,5 +125,3 @@ Extra config arguments exemple:
 "accessToken":"YOUROWNTOKEN"
 ```
 <img width="664" alt="Capture d’écran 2024-01-09 à 14 42 06" src="https://github.com/EloWord/hiveos/assets/155255722/a755e6e9-677f-48e4-9e3e-1ddf7a2dcc01">
-
-
