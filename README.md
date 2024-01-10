@@ -39,7 +39,7 @@ Hive OS
 - Improved stability
 - Experimental Feature: miner restart and adopt the new Trainer when it receives an update.
 
-****** stay tuned for next release version *******
+****** Get ready for the next exciting update - coming soon! *******
 
 <!--
 |  | Usefull Links |
@@ -49,6 +49,7 @@ Hive OS
 | <img height="40" width="160" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"> | [Software Wallet](https://github.com/Qubic-Hub/qubic-wallet/releases/) | 
 |<img height="40" width="160" alt="iconePool" src="https://github.com/EloWord/hiveos/assets/155255722/25b2b59c-bb7d-4db6-97d4-9cde5c45f7ad"> | [Mining Pool](https://app.qubic.li/public/) |
 -->
+<br>
 
 ## :star2: Support My Work and Contribute to its Growth :star2:
 
@@ -58,10 +59,10 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 *Support received since this version: 3,000,000 Qubic - Thank you for your future support!*
 
-[![Join our community on Discord](https://github.com/EloWord/hiveos/assets/155255722/fbc15830-d050-495d-81e7-4947afeebae6?s=200)](https://discord.gg/uPP8R6ku)
+[<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="250">](https://discord.gg/uPP8R6ku)
 
 Thank you for being part of this journey!
-
+<br>
 
 ## :warning: Mandatory Installation Instructions (updated 05/01/2024)
 
@@ -76,10 +77,11 @@ Thank you for being part of this journey!
 - RAM >= 16Go improve CPU it/s
 
 *Only NVIDIA GPU compatible*
+<br>
 
 ## :wrench: Settings
 
-- it's a all-in-one miner (CPU+GPU / GPU only / CPU Only) use flightsheet exemples down there
+- it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
 https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-eloword-v1.8.3.tar.gz
 
 - Recommended GPU overclocks :
@@ -89,6 +91,7 @@ https://github.com/EloWord/hiveos/releases/download/v-1.8.3/qubic-hivecustom-elo
 **High**
 3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```
 4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```
+<br>
 
 ## :wrench: Hive OS flightsheet 
 
@@ -122,3 +125,5 @@ Extra config arguments exemple:
 "accessToken":"YOUROWNTOKEN"
 ```
 <img width="664" alt="Capture d’écran 2024-01-09 à 14 42 06" src="https://github.com/EloWord/hiveos/assets/155255722/a755e6e9-677f-48e4-9e3e-1ddf7a2dcc01">
+
+
