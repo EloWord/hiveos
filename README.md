@@ -2,13 +2,13 @@
 ![Capture d’écran 2024-01-10 à 21 49 16](https://github.com/EloWord/hiveos/assets/155255722/b88dd2ed-77f6-45a2-86e9-9531f9628b03)
 
 ### Version 1.8.4: 
-- Enhanced Logging for GPU Hashrates
+- Enhanced Logging for GPU it/s
 
 Hive OS:
 - Resolved issues with GPU hashrate reporting in the HiveOS Web UI.
 - Introduced a new feature: In cases where individual GPU it/s are not reported, HiveOS will now display an average of the total GPU it/s.
 
-*Known Bug Alert: GPU#0 hashrate display may show a decrease, but rest assured, the actual hashrate remains stable. This is strictly a display issue and will be resolved in the upcoming release*
+*Known Bug Alert: GPU#0 its display may show a decrease, but rest assured, the actual hashrate remains stable. This is strictly a display issue and will be resolved in the upcoming release*
 
 
 ****** Get ready for the next exciting update - coming soon! *******
@@ -54,7 +54,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.4/qubic-hivecustom-eloword-v1.8.4.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.4/eloword-v1.8.4.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
