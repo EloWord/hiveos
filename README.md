@@ -1,5 +1,34 @@
-
-![Capture d’écran 2024-01-10 à 21 49 16](https://github.com/EloWord/hiveos/assets/155255722/b88dd2ed-77f6-45a2-86e9-9531f9628b03)
+<table>
+  <tr>
+    <td>
+      <img width="850" alt="Capture d’écran 2024-01-09 à 14 49 06" src="https://github.com/EloWord/hiveos/assets/155255722/b88dd2ed-77f6-45a2-86e9-9531f9628b03">
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td><img height="30" width="120" alt="iconewebsite" src="https://github.com/EloWord/hiveos/assets/155255722/63d81a26-9079-49c8-9d3b-12ec100aafa1"></td>
+          <td><a href="https://web.qubic.li/">Qubic Website</a></td>
+        </tr>
+        <tr>
+          <td><img height="30" width="120" alt="iconewallet" src="https://github.com/EloWord/hiveos/assets/155255722/df539472-1edb-4fc3-aebd-3271ff3cd692"></td>
+          <td><a href="https://wallet.qubic.li/">Web Wallet</a></td>
+        </tr>
+        <tr>
+          <td><img height="30" width="120" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"></td>
+          <td><a href="https://github.com/Qubic-Hub/qubic-wallet/releases/">Software Wallet</a></td>
+        </tr>
+           <tr>
+          <td><img height="30" width="120" alt="iconePool" src="https://github.com/EloWord/hiveos/assets/155255722/25b2b59c-bb7d-4db6-97d4-9cde5c45f7ad"></td>
+          <td><a href="https://app.qubic.li/public/">Mining Pool</a></td>
+        </tr>
+         <tr>
+          <td><img height="30" width="120" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"></td>
+          <td><a href="https://github.com/qubic-li/client?tab=readme-ov-file#download">Official Cient</a></td>
+        </tr>
+       </table>
+    </td>
+  </tr>
+</table>
 
 ### Version 1.8.4: 
 - Enhanced Logging for GPU it/s
@@ -36,14 +65,14 @@ If you appreciate my work and want to contribute to its ongoing development, con
 Thank you for being part of this journey!
 <br>
 
-## :warning: Mandatory Installation Instructions (updated 05/01/2024)
+## :warning: Mandatory Installation Instructions (updated 11/01/2024)
 
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
 - Hive OS beta (Ubuntu 20.04) 
 `hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
-- GLIBC >=2.34
-`sudo echo "deb http://cz.archive.ubuntu.com/ubuntu noble main" >> /etc/apt/sources.list && sudo apt update && sudo apt install tmux libc6-dev -y`
+- GLIBC >=2.34 (updated 11/01/2024)
+`apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && sudo apt install libc6 -y`
 - Cuda 12+ drivers (525+)
 `nvidia-driver-update 525.125.06`
 - RAM >= 16Go improves CPU it/s
