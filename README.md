@@ -74,7 +74,7 @@ Thank you for being part of this journey!
 - GLIBC >=2.34 (updated 11/01/2024)
 ```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && sudo apt install libc6 -y ```
 - Cuda 12+ drivers (525+)
-```nvidia-driver-update 525.125.06```
+`nvidia-driver-update 525.125.06`
 - RAM >= 16Go improves CPU it/s
 
 *Only NVIDIA GPU compatible*
