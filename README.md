@@ -1,3 +1,12 @@
+### Version 1.8.5
+- Optimized Epoch Change
+### Hiveos
+- Fixed a bug in Flightsheet parameters format
+
+Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.5/eloword-v1.8.5.tar.gz
+
+****** Get ready for the next exciting update - coming soon! *******
+
 <table>
   <tr>
     <td>
@@ -30,30 +39,6 @@
   </tr>
 </table>
 
-### Version 1.8.4: 
-- Enhanced Logging for GPU it/s
-
-Hive OS use in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.4/eloword-v1.8.4fix2.tar.gz
-
-**1.8.4 FIX 2**
-- Resolved an issue with GPU#0 hashrate reporting post-Epoch 92 (anticipated to remain accurate for subsequent epochs).
-- Corrected Solutions reporting discrepancies starting from Epoch 92.
-- Addressed the log error occurring during epoch transitions.
-
-**1.8.4 FIX 1**
-- Resolved a bug causing GPU hashrate 'offset' in the HiveOS web UI when an iGPU is present.
-- Resolved some GLIBC version issue
-- Addressed compatibility issues
-- Resolved problems encountered during startup
-- Experimental feature: Added support of option "overwrites": {"AVX512":false}  (Insert this into the flight sheet preceding the "accessToken")
-- Fixed GPU#0 decrease dislpay bug
-
-**1.8.4**
-- Resolved issues with GPU hashrate reporting in the HiveOS Web UI.
-- Introduced a new feature: In cases where individual GPU it/s are not reported, HiveOS will now display an average of the total GPU it/s.
-
-
-****** Get ready for the next exciting update - coming soon! *******
 
 <!--
 |  | Usefull Links |
@@ -71,7 +56,7 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `HJDQLJOMSLGVWAVBWUTRCYPFICUAWTLUBKXLQXOJLBIKTGLRAGQHPDODPQNB`
 
-*Support received since this version: 6,000,000 Qubic - Thank you for your future support!*
+*Support received since this version: 6,060,000 Qubic - Thank you for your future support!*
 
 [<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/uPP8R6ku)
 
@@ -87,7 +72,7 @@ Thank you for being part of this journey!
 - GLIBC >=2.34 (updated 17/01/2024)
 ```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
-`nvidia-driver-update 525.125.06`
+`nvidia-driver-update 525.125.06` (or newer)
 - RAM >= 16Go improves CPU it/s
 - Do not overload your CPUs with threads, instead, aim to find the sweetpoint
 
@@ -97,7 +82,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.4/eloword-v1.8.4fix2.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.5/eloword-v1.8.5.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
@@ -120,8 +105,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "amountOfThreads":24
 "accessToken":"YOUROWNTOKEN"
 ```
-
-![1](https://github.com/EloWord/hiveos/assets/155255722/507ea22b-bd09-4cf1-a11c-44962b071318)
+<img width="669" alt="gpucpu" src="https://user-images.githubusercontent.com/155255722/298053540-bbf00c40-2a22-4efe-81e5-dbb638666de4.png">
 
 ### *** GPU Only Flightsheet ***
 
@@ -130,7 +114,7 @@ Extra config arguments exemple:
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken":"YOUROWNTOKEN"
 ```
-![2](https://github.com/EloWord/hiveos/assets/155255722/0093841c-fc14-446e-9e94-4ce737842040)
+<img width="672" alt="gpu" src="https://user-images.githubusercontent.com/155255722/298053595-d7189457-169d-4713-85f1-f42f9b2b1181.png">
 
 
 ### *** CPU ONLY Flightsheet ***
@@ -141,5 +125,4 @@ Extra config arguments exemple:
 "amountOfThreads":14
 "accessToken":"YOUROWNTOKEN"
 ```
-![3](https://github.com/EloWord/hiveos/assets/155255722/494cc63e-2bf6-4596-9983-6eec40b1cbf8)
-
+<img width="672" alt="cpu" src="https://user-images.githubusercontent.com/155255722/298053664-706b5108-cde5-470c-bd35-0caf4f497de9.png">
