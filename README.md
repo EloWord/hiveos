@@ -1,19 +1,16 @@
+<img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
+
+
 ### Version 1.8.5
 - Optimized Epoch Change
 ### Hiveos
-- Fixed a bug in Flightsheet parameters format
+- Fixed a bug where the Flightsheet parameters format did not accept certain formats containing spaces
 
 Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.5/eloword-v1.8.5.tar.gz
 
 ****** Get ready for the next exciting update - coming soon! *******
 
 <table>
-  <tr>
-    <td>
-      <img width="850" alt="Capture d’écran 2024-01-09 à 14 49 06" src="https://github.com/EloWord/hiveos/assets/155255722/b88dd2ed-77f6-45a2-86e9-9531f9628b03">
-    </td>
-    <td>
-      <table>
         <tr>
           <td><img height="30" width="120" alt="iconewebsite" src="https://github.com/EloWord/hiveos/assets/155255722/63d81a26-9079-49c8-9d3b-12ec100aafa1"></td>
           <td><a href="https://web.qubic.li/">Qubic Website</a></td>
@@ -34,9 +31,6 @@ Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8
           <td><img height="30" width="120" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"></td>
           <td><a href="https://github.com/qubic-li/client?tab=readme-ov-file#download">Official Cient</a></td>
         </tr>
-       </table>
-    </td>
-  </tr>
 </table>
 
 
