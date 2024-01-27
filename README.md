@@ -50,9 +50,9 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `HJDQLJOMSLGVWAVBWUTRCYPFICUAWTLUBKXLQXOJLBIKTGLRAGQHPDODPQNB`
 
-*Support received since this version: 6,060,000 Qubic - Thank you for your future support!*
+*Support received since this version: 9,060,000 Qubic - Thank you for your future support!*
 
-[<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/7AE5wA9c)
+[<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/bWHcuuyQBf)
 
 Thank you for being part of this journey!
 <br>
@@ -62,7 +62,7 @@ Thank you for being part of this journey!
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
 - Hive OS beta (Ubuntu 20.04) 
-`hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
+`/hive/sbin/hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
 - GLIBC >=2.34 (updated 17/01/2024)
 ```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
