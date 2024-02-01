@@ -1,13 +1,14 @@
 <img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
 
-
+### Fix 1
+- Solve bug on hiveos when using "payoutId"
 ### Version 1.8.6
 - Fixed wrong "skylake" overwrite
 ### Hiveos
-- added support of "payoutId" option in hiveos FS
-- improved general stability
+- Added support of "payoutId" option in hiveos FS
+- Improved general stability
 
-Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6.tar.gz
+Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix1.tar.gz
 
 ****** Get ready for the next exciting update - coming soon! *******
 
@@ -76,7 +77,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix1.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
