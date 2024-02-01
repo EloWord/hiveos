@@ -1,12 +1,13 @@
 <img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
 
 
-### Version 1.8.5
-- Optimized Epoch Change
+### Version 1.8.6
+- Fixed wrong "skylake" overwrite
 ### Hiveos
-- Fixed a bug where the Flightsheet parameters format did not accept certain formats containing spaces
+- added support of "payoutId" option in hiveos FS
+- improved general stability
 
-Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.5/eloword-v1.8.5.tar.gz
+Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6.tar.gz
 
 ****** Get ready for the next exciting update - coming soon! *******
 
@@ -50,20 +51,19 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `HJDQLJOMSLGVWAVBWUTRCYPFICUAWTLUBKXLQXOJLBIKTGLRAGQHPDODPQNB`
 
-*Support received since this version: 9,060,000 Qubic - Thank you for your future support!*
+*Support received since this version: 514,140,131 Qubic - Thank you for your future support!*
 
 [<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/bWHcuuyQBf)
 
 Thank you for being part of this journey!
 <br>
 
-## :warning: Mandatory Installation Instructions (updated 17/01/2024)
-
+## :warning: Mandatory Installation Instructions
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
 - Hive OS beta (Ubuntu 20.04) 
 `/hive/sbin/hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
-- GLIBC >=2.34 (updated 17/01/2024)
+- GLIBC >=2.34
 ```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
 `nvidia-driver-update 525.125.06` (or newer)
@@ -76,7 +76,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.5/eloword-v1.8.5.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
