@@ -50,7 +50,7 @@ Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8
 
 If you appreciate my work and want to contribute to its ongoing development, consider leaving a tip. Every contribution, big or small, makes a huge difference and motivates me to continue creating and improving.
 
-- **To support me, use Qubic:** `HJDQLJOMSLGVWAVBWUTRCYPFICUAWTLUBKXLQXOJLBIKTGLRAGQHPDODPQNB`
+- **To support me, use Qubic:** `QYGPXYBKNIDKVFFUWMMJFPWNMPXAPAVFEFEJOTUEIALMQZEFNKXOUUQEWBOM`
 
 *Support received since this version: 514,140,131 Qubic - Thank you for your future support!*
 
