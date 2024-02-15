@@ -65,7 +65,7 @@ Thank you for being part of this journey!
 - Hive OS beta (Ubuntu 20.04) 
 `/hive/sbin/hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
 - GLIBC >=2.34
-```apt update && apt upgrade && echo "deb http://cz.archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
+```apt update && apt upgrade && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
 `nvidia-driver-update 525.125.06` (or newer)
 - RAM >= 16Go improves CPU it/s
