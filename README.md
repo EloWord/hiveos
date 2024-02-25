@@ -69,7 +69,7 @@ Thank you for being part of this journey!
 - GLIBC >=2.34
 ```apt update && apt upgrade -y && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
-`nvidia-driver-update 525.125.06` (or newer)
+`nvidia-driver-update 535.146.02` (or newer)
 - RAM >= 16Go improves CPU it/s
 - Do not overload your CPUs with threads, instead, aim to find the sweetpoint
 
