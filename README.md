@@ -94,10 +94,10 @@ https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix2.ta
 
 | Setting | Description |
 | ---- | --------- |
-| "accessToken": | This is you personal JWT Token which you can obtain from the Control Panel at qubic.li |
-| "payoutId": |  This is the ID you want to get token payout for your found solutions. |
-|  "overwrites": {"AVX512": false} |  Disable AVX512 and enforce AVX2 (AVX Intel CPU not working) |
-| "overwrites": {"SKYLAKE": true}  |  Enforce SKYLAKE (AVX Intel CPU not working)  |
+| ```"accessToken":``` | This is you personal JWT Token which you can obtain from the Control Panel at qubic.li |
+| ```"payoutId":``` |  This is the ID you want to get token payout for your found solutions. |
+|  ```"overwrites": {"AVX512": false}``` |  Disable AVX512 and enforce AVX2 (AVX Intel CPU not working) |
+| ```"overwrites": {"SKYLAKE": true}```  |  Enforce SKYLAKE (AVX Intel CPU not working)  |
 <br>
 
 ## ✈️ Hive OS flightsheet 
