@@ -1,5 +1,7 @@
 <img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
 
+### Fix 2
+- Fixed a bug in the recognition and processing of specific CPU settings like \"overwrites\": {\"AVX512\": false} or \"overwrites\": {\"SKYLAKE\": true}
 ### Fix 1
 - Solve bug on hiveos when using "payoutId"
 ### Version 1.8.6
@@ -8,7 +10,7 @@
 - Added support of "payoutId" option in hiveos FS
 - Improved general stability
 
-Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix1.tar.gz
+Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix2.tar.gz
 
 ****** Get ready for the next exciting update - coming soon! *******
 
@@ -65,7 +67,7 @@ Thank you for being part of this journey!
 - Hive OS beta (Ubuntu 20.04) 
 `/hive/sbin/hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
 - GLIBC >=2.34
-```apt update && apt upgrade && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
+```apt update && apt upgrade -y && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
 - Cuda 12+ drivers (525+)
 `nvidia-driver-update 525.125.06` (or newer)
 - RAM >= 16Go improves CPU it/s
@@ -77,7 +79,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix1.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix2.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
