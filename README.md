@@ -1,16 +1,13 @@
 <img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
 
-### Fix 2
-- Fixed a bug in the recognition and processing of specific CPU settings like \"overwrites\": {\"AVX512\": false} or \"overwrites\": {\"SKYLAKE\": true}
-### Fix 1
-- Solve bug on hiveos when using "payoutId"
-### Version 1.8.6
-- Fixed wrong "skylake" overwrite
 ### Hiveos
-- Added support of "payoutId" option in hiveos FS
-- Improved general stability
+- Optimized the number of hugepages in HiveOS system environment for the new AI training algorithm.
+- Enhanced overall stability and security.
+- Resolution of an issue encountered when operating another HiveOS miner within the same flight sheet
+- Correction of a bug associated with altering the CPU's thread count, specifically "amountOfThreads" option
+- Optimized binaries and librairies requirments for upcoming HiveOS integration
 
-Use now in flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix2.tar.gz
+Use now in Flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6rev1/eloword-v1.8.6rev1.tar.gz
 
 ****** Get ready for the next exciting update - coming soon! *******
 
@@ -54,7 +51,7 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `QYGPXYBKNIDKVFFUWMMJFPWNMPXAPAVFEFEJOTUEIALMQZEFNKXOUUQEWBOM`
 
-*Support received since this version: 514,140,131 Qubic - Thank you for your future support!*
+*Support received since this version: 620,240,488 Qubic - Thank you for your future support!*
 
 [<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/bWHcuuyQBf)
 
@@ -68,9 +65,11 @@ Thank you for being part of this journey!
 `/hive/sbin/hive-replace --list`  (choice 2/ yes to apply -- better to start this fresh install if you'r stuck)
 - GLIBC >=2.34
 ```apt update && apt upgrade -y && echo "deb http://archive.ubuntu.com/ubuntu jammy main" >> /etc/apt/sources.list && apt update && apt install tmux -y && apt install libc6 -y``` (answer yes to any question)
-- Cuda 12+ drivers (525+)
+- Cuda 12+ drivers (525+) 
+- Cuda 12 for 1000 series must be 535+
 `nvidia-driver-update 535.146.02` (or newer)
 - RAM >= 16Go improves CPU it/s
+- Higher RAM frequencies improves CPU it/s
 - Do not overload your CPUs with threads, instead, aim to find the sweetpoint
 
 *Only NVIDIA GPU compatible*
@@ -79,7 +78,7 @@ Thank you for being part of this journey!
 ## :wrench: Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.6/eloword-v1.8.6fix2.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.6rev1/eloword-v1.8.6rev1.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
@@ -112,7 +111,7 @@ nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "amountOfThreads":24
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="669" alt="gpucpu" src="https://user-images.githubusercontent.com/155255722/298053540-bbf00c40-2a22-4efe-81e5-dbb638666de4.png">
+![1](https://github.com/EloWord/hiveos/assets/155255722/80be2a43-fbbb-49f5-a2f5-7b8dd5cd9820)
 
 ### *** GPU Only Flightsheet ***
 
@@ -121,8 +120,7 @@ Extra config arguments exemple:
 nvtool --setcoreoffset 200 --setclocks 1500 --setmem 7000 --setmemoffset 2000
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="672" alt="gpu" src="https://user-images.githubusercontent.com/155255722/298053595-d7189457-169d-4713-85f1-f42f9b2b1181.png">
-
+![2](https://github.com/EloWord/hiveos/assets/155255722/d8f1b494-39bd-49b9-9677-6981b1cf4432)
 
 ### *** CPU ONLY Flightsheet ***
 
@@ -132,4 +130,4 @@ Extra config arguments exemple:
 "amountOfThreads":14
 "accessToken":"YOUROWNTOKEN"
 ```
-<img width="672" alt="cpu" src="https://user-images.githubusercontent.com/155255722/298053664-706b5108-cde5-470c-bd35-0caf4f497de9.png">
+![3](https://github.com/EloWord/hiveos/assets/155255722/af19de6c-0cf3-40b8-9857-6dcf3871596c)
