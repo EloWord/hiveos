@@ -51,7 +51,7 @@ If you appreciate my work and want to contribute to its ongoing development, con
 
 - **To support me, use Qubic:** `TWVQTVPLEMNCWBJZFVCLCZCDGBDBLBWBAPCVQJOUECEZQQBMAPAXSRBEABSK`
 
-*Support received since this version: 620,240,488 Qubic - Thank you for your future support!*
+*Support received since this version: 625,240,488 Qubic - Thank you for your future support!*
 
 [<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/bWHcuuyQBf)
 
