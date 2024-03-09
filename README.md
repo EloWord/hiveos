@@ -1,15 +1,26 @@
-<img width="988" alt="Capture d’écran 2024-01-19 à 13 08 26" src="https://user-images.githubusercontent.com/155255722/298063346-3a030ae9-fdf2-418b-b857-ca570d72ddf5.png">
+![1](https://github.com/EloWord/hiveos/assets/155255722/1d9941d4-e4e1-4206-b523-08735ae8faf2)
 
-### Hiveos
-- Optimized the number of hugepages in HiveOS system environment for the new AI training algorithm.
-- Enhanced overall stability and security.
-- Resolution of an issue encountered when operating another HiveOS miner within the same flight sheet
-- Correction of a bug associated with altering the CPU's thread count, specifically "amountOfThreads" option
-- Optimized binaries and librairies requirments for upcoming HiveOS integration
+**qli-Client 1.8.7**
 
-Use now in Flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8.6rev1/eloword-v1.8.6rev1.tar.gz
+- Log time set to UTC
+- Added graceful handling of runner
+- Update to .net 8
+- Optimized logging of found solutions during epoch
 
-****** Get ready for the next exciting update - coming soon! *******
+**Hive Os**
+
+- Display now in Hive OS current Epoch and  current CPU/GPU AI Trainer version
+![Capture d’écran 2024-03-09 à 14 27 06](https://github.com/EloWord/hiveos/assets/155255722/555380f8-9398-4479-b112-942bfec4763b)
+- Moved HugePages settings as optional: now use `"hugePages":nnnn` in flightsheet to set this value
+- Fixed a display bug on Hive OS when using a mixed rig of AMD+NVIDIA
+- fixed a display bug on Hive OS when motherboard has iGPU
+- Experimental feature: option `"autoupdateEnabled":false/true` disable/enable auto update of the service client  (default value *false*)
+
+Use now in Flightsheet: https://github.com/qubic-li/client/releases/download/v1.8.7/eloword-v1.8.7.1.tar.gz
+
+**Packages are now uploaded in [Qubic-li official repository](https://github.com/qubic-li/client/releases/tag/v1.8.7)**
+
+<br>
 
 <table>
         <tr>
@@ -34,22 +45,11 @@ Use now in Flightsheet: https://github.com/EloWord/hiveos/releases/download/v1.8
         </tr>
 </table>
 
-
-<!--
-|  | Usefull Links |
-| ---- | --------- |
-| <img height="40" width="160" alt="iconewebsite" src="https://github.com/EloWord/hiveos/assets/155255722/63d81a26-9079-49c8-9d3b-12ec100aafa1"> | [Qubic Website](https://web.qubic.li/) | 
-| <img height="40" width="160" alt="iconewallet" src="https://github.com/EloWord/hiveos/assets/155255722/df539472-1edb-4fc3-aebd-3271ff3cd692"> | [Web Wallet](https://wallet.qubic.li/) | 
-| <img height="40" width="160" alt="Capture d’écran 2024-01-10 à 01 45 22" src="https://github.com/EloWord/hiveos/assets/155255722/b16983a6-74cc-4256-8192-9d02f5c2bc7d"> | [Software Wallet](https://github.com/Qubic-Hub/qubic-wallet/releases/) | 
-|<img height="40" width="160" alt="iconePool" src="https://github.com/EloWord/hiveos/assets/155255722/25b2b59c-bb7d-4db6-97d4-9cde5c45f7ad"> | [Mining Pool](https://app.qubic.li/public/) |
--->
-<br>
-
 ## :star2: Support My Work and Contribute to its Growth :star2:
 
 If you appreciate my work and want to contribute to its ongoing development, consider leaving a tip. Every contribution, big or small, makes a huge difference and motivates me to continue creating and improving.
 
-- **To support me, use Qubic:** `QYGPXYBKNIDKVFFUWMMJFPWNMPXAPAVFEFEJOTUEIALMQZEFNKXOUUQEWBOM`
+- **To support me, use Qubic:** `TWVQTVPLEMNCWBJZFVCLCZCDGBDBLBWBAPCVQJOUECEZQQBMAPAXSRBEABSK`
 
 *Support received since this version: 620,240,488 Qubic - Thank you for your future support!*
 
@@ -58,7 +58,9 @@ If you appreciate my work and want to contribute to its ongoing development, con
 Thank you for being part of this journey!
 <br>
 
-## :warning: Mandatory Installation Instructions
+# hive
+
+## :warning: Hive Os Mandatory Installation Instructions
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
 `cat /proc/cpuinfo | grep avx2`(check if `avx2` is in the result)
 - Hive OS beta (Ubuntu 20.04) 
@@ -75,10 +77,10 @@ Thank you for being part of this journey!
 *Only NVIDIA GPU compatible*
 <br>
 
-## :wrench: Settings
+## :wrench: Hive Os Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.6rev1/eloword-v1.8.6rev1.tar.gz
+https://github.com/qubic-li/client/releases/download/v1.8.7/eloword-v1.8.7.1.tar.gz
 
 - Recommended GPU overclocks :
 **Medium**
@@ -95,6 +97,7 @@ https://github.com/EloWord/hiveos/releases/download/v1.8.6rev1/eloword-v1.8.6rev
 | ---- | --------- |
 | ```"accessToken":``` | This is you personal JWT Token which you can obtain from the Control Panel at qubic.li |
 | ```"payoutId":``` |  This is the ID you want to get token payout for your found solutions. |
+| ```"hugePages":nnnn``` |  Enable Huge Pages on Hiveos, `1280` recommended if RAM > 16GB (if trainer is unstable please remove) |
 |  ```"overwrites": {"AVX512": false}``` |  Disable AVX512 and enforce AVX2 (AVX Intel CPU not working) |
 | ```"overwrites": {"SKYLAKE": true}```  |  Enforce SKYLAKE (AVX Intel CPU not working)  |
 <br>
