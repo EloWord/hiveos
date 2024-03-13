@@ -1,26 +1,13 @@
-![1](https://github.com/EloWord/hiveos/assets/155255722/1d9941d4-e4e1-4206-b523-08735ae8faf2)
+![311440315-1d9941d4-e4e1-4206-b523-08735ae8faf2](https://github.com/EloWord/hiveos/assets/155255722/fb903886-72a1-477b-a82c-e9c5e906c636)
 
-**qli-Client 1.8.7**
 
-- Log time set to UTC
-- Added graceful handling of runner
-- Update to .net 8
-- Optimized logging of found solutions during epoch
+**qli-Client 1.8.8**
 
-**Hive Os**
+- added ability to resend unsubmitted solution after a client restart
 
-- Display now in Hive OS current Epoch and  current CPU/GPU AI Trainer version
-![Capture d’écran 2024-03-09 à 14 27 06](https://github.com/EloWord/hiveos/assets/155255722/555380f8-9398-4479-b112-942bfec4763b)
-- Moved HugePages settings as optional: now use `"hugePages":nnnn` in flightsheet to set this value
-- Fixed a display bug on Hive OS when using a mixed rig of AMD+NVIDIA
-- fixed a display bug on Hive OS when motherboard has iGPU
-- Experimental feature: option `"autoupdateEnabled":false/true` disable/enable auto update of the service client  (default value *false*)
 
-Use now in Flightsheet: https://github.com/qubic-li/client/releases/download/v1.8.7/eloword-v1.8.7.1.tar.gz
+Use now in flightsheet : https://github.com/qubic-li/client/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
 
-**Packages are now uploaded in [Qubic-li official repository](https://github.com/qubic-li/client/releases/tag/v1.8.7)**
-
-<br>
 
 <table>
         <tr>
@@ -45,20 +32,28 @@ Use now in Flightsheet: https://github.com/qubic-li/client/releases/download/v1.
         </tr>
 </table>
 
+
+# How to patch Hiveos from 1.8.7.1 to 1.8.8beta
+
+Patch by running this command:
+```
+miner stop && wget https://github.com/EloWord/hiveos/releases/download/v1.8.8/update188b.tar.gz ; tar -xvf update188b.tar.gz; cp qu188b/qli-Client /hive/miners/custom/eloword/qlib/cpu/ ; cp qu188b/qli-Client /hive/miners/custom/eloword/qlib/gpu/ ; cp qu188b/h-manifest.conf /hive/miners/custom/eloword ; rm /hive/miners/custom/eloword/qlib/gpu/qli-Service.sh ; rm /hive/miners/custom/eloword/qlib/cpu/qli-Service.sh ; miner start
+```
+
+<br>
+
 ## :star2: Support My Work and Contribute to its Growth :star2:
 
 If you appreciate my work and want to contribute to its ongoing development, consider leaving a tip. Every contribution, big or small, makes a huge difference and motivates me to continue creating and improving.
 
 - **To support me, use Qubic:** `TWVQTVPLEMNCWBJZFVCLCZCDGBDBLBWBAPCVQJOUECEZQQBMAPAXSRBEABSK`
 
-*Support received since this version: 625,240,488 Qubic - Thank you for your future support!*
+*Support received since this version: 620,240,488 Qubic - Thank you for your future support!*
 
 [<img src="https://github.com/EloWord/hiveos/assets/155255722/dedb996d-c517-4059-a55a-d9adea9a21f1" alt="discord" width="200">](https://discord.gg/bWHcuuyQBf)
 
 Thank you for being part of this journey!
 <br>
-
-# hive
 
 ## :warning: Hive Os Mandatory Installation Instructions
 - The CPU where you run the Client must support AVX2 or AVX512 CPU instructions
@@ -80,15 +75,15 @@ Thank you for being part of this journey!
 ## :wrench: Hive Os Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/qubic-li/client/releases/download/v1.8.7/eloword-v1.8.7.1.tar.gz
+https://github.com/qubic-li/client/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
 
-- Recommended GPU overclocks :
-**Medium**
-3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```
-4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```
-**High**
-3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```
-4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```
+- Recommended GPU overclocks :  
+**Medium**  
+3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```  
+4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```  
+**High**  
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```  
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```  
 <br>
 
 - Extra config arguments Box (options):
