@@ -6,7 +6,7 @@
 - added ability to resend unsubmitted solution after a client restart
 
 
-Use now in flightsheet : https://github.com/qubic-li/client/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
+Use now in flightsheet : https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
 
 
 <table>
@@ -75,7 +75,7 @@ Thank you for being part of this journey!
 ## :wrench: Hive Os Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/qubic-li/client/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
 
 - Recommended GPU overclocks :  
 **Medium**  
