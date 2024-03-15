@@ -35,12 +35,7 @@ Use now in flightsheet : https://github.com/EloWord/hiveos/releases/download/v1.
 </table>
 
 
-# How to patch Hiveos from 1.8.7.1 to 1.8.8beta
-
-Patch by running this command:
-```
-miner stop && wget https://github.com/EloWord/hiveos/releases/download/v1.8.8/update188b.tar.gz ; tar -xvf update188b.tar.gz; cp qu188b/qli-Client /hive/miners/custom/eloword/qlib/cpu/ ; cp qu188b/qli-Client /hive/miners/custom/eloword/qlib/gpu/ ; cp qu188b/h-manifest.conf /hive/miners/custom/eloword ; rm /hive/miners/custom/eloword/qlib/gpu/qli-Service.sh ; rm /hive/miners/custom/eloword/qlib/cpu/qli-Service.sh ; miner start
-```
+No more patch needed
 
 <br>
 
