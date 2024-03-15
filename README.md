@@ -1,12 +1,14 @@
 ![311440315-1d9941d4-e4e1-4206-b523-08735ae8faf2](https://github.com/EloWord/hiveos/assets/155255722/fb903886-72a1-477b-a82c-e9c5e906c636)
 
+**qli-Client 1.8.8 fix1**
+- Resolved an issue where the trainer version might not display correctly after being updated
+- Fixed a bug that could potentially cause the miner to restart on HiveOS and result in unsubmitted solutions
+- 
+Use now in flightsheet : https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8fix1.tar.gz
 
 **qli-Client 1.8.8**
 
 - added ability to resend unsubmitted solution after a client restart
-
-
-Use now in flightsheet : https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
 
 
 <table>
@@ -75,7 +77,7 @@ Thank you for being part of this journey!
 ## :wrench: Hive Os Settings
 
 - it's an all-in-one miner (CPU+GPU / GPU only / CPU Only), check out the example flightsheets below for seamless setup
-https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8.tar.gz
+https://github.com/EloWord/hiveos/releases/download/v1.8.8/eloword-v1.8.8fix1.tar.gz
 
 - Recommended GPU overclocks :  
 **Medium**  
